@@ -1,3 +1,3 @@
-const {add, subtract, divide, multiply, calculateAverage} = require('./mathUtils.js');
+const mathUtils = require('./mathUtils.js');
 
-console.log(add(5,3))
+console.log(mathUtils.add(5,3))
