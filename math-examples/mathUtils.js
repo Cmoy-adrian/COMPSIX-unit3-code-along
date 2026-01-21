@@ -32,3 +32,23 @@ module.exports = {
 	divide,
     calculateAverage
 };
+
+const nums = [2, 4, 6, 8, 10];
+
+function findHighest(arr) {
+	let highest = arr[0];
+	for(let i = 0; i < arr.length; i++) {
+		if(arr[i] > highest) {
+        	highest = arr[i];
+        }
+    }
+    return highest
+}
+
+function sumArr(arr) {
+	let sum = 0;
+	for(let i = 0; i < arr.length; i++) {
+		sum = sum + arr[i]
+    }
+	return sum;
+}
